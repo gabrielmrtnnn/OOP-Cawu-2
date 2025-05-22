@@ -9,7 +9,7 @@ public class EmailMessage extends Message {
         if (getLogin().authenticate(username, password)) {
             System.out.println("Email sent from " + getSender() + " to " + getRecipient() + ": " + getContent());
         } else {
-            System.out.println("Authentication failed for user: " + username);
+            System.out.println("Email authentication failed for user: " + username);
         }
     }
 }
