@@ -17,8 +17,8 @@ public class BasicLogin implements ILogin {
     }
 
     @Override
-    public boolean authenticate(String name, String pass) {
-        return this.name.equals(name) && this.pass.equals(pass);
+    public boolean authenticate(String username, String password) {
+        return name.equals(username) && pass.equals(password);
     }
     
 }

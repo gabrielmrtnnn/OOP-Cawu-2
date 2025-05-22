@@ -15,7 +15,8 @@ public abstract class Message {
     public ILogin getLogin() {
         return login;
     }
-    
+
+
     public String getSender() {
         return sender;
     }
